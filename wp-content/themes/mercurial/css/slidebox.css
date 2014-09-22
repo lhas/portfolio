@@ -1,0 +1,295 @@
+
+
+
+.slidebox {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9990;
+}
+
+.slidebox .sprite {
+    display: inline-block;
+    background-image: url('../images/sprite.png');
+    background-color: #000;
+    width: 56px;
+    height: 56px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+}
+@media only screen and (max-width: 768px) {
+    .slidebox .sprite {
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+    }
+}
+
+/*
+
+Content
+----------------------------------------------------
+*/
+.slidebox div.content.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e2dbd4;
+}
+.slidebox div.content.wrapper .itemss {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: left 0.25s ease-out;
+    -moz-transition: left 0.25s ease-out;
+    transition: left 0.25s ease-out;
+}
+
+.slidebox div.item.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    text-align: center;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.slidebox div.item.wrapper.next {
+    left: 100%;
+}
+
+.slidebox div.item.wrapper.current {
+    left: 0;
+}
+
+.slidebox div.item.wrapper.previous {
+    left: -100%;
+}
+
+.slidebox div.item.wrapper .image {
+    position: absolute;
+    width: 100%;
+    /*max-height: 100%;*/
+}
+
+.slidebox div.item.wrapper .video {
+    position: absolute;
+}
+
+.slidebox div.item.wrapper .youtube iframe,
+.slidebox div.item.wrapper .vimeo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slidebox div.item.wrapper .image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*
+
+Info
+----------------------------------------------------
+*/
+.slidebox .info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    -webkit-transition: left 0.25s ease-out;
+    -moz-transition: left 0.25s ease-out;
+    transition: left 0.25s ease-out;
+    z-index: 9995;
+    color: #fff;
+}
+
+.slidebox .info.hide {
+    left: -100%;
+}
+
+.slidebox .info.show {
+    left: 0;
+}
+.slidebox .info .bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #FB815A;
+    opacity: 0.9;
+}
+.slidebox .info .container {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.slidebox .info .title .text {
+    font-family: 'novecentowidebold', helvetica, arial;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.83em;
+    letter-spacing: -0.09em;
+    /*margin-bottom: 50px;*/
+    color: #fff;
+
+}
+.slidebox .info .meta {
+    font-family: 'NovecentowideLightRegular', helvetica, arial;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.83em;
+    letter-spacing: -0.09em;
+    margin-bottom: 50px;
+
+}
+.slidebox .info .meta .launch{
+    margin-top: 30px;
+}
+.slidebox .info .meta .launch a.button.website{
+    margin: 0 !important;
+    color: #fff;
+    border-color: #fff;
+    letter-spacing: normal;
+}
+.slidebox .info .meta .launch a.button.website:hover{
+    color: #000;
+    border-color: #000;
+}
+/*
+
+Options buttons
+----------------------------------------------------
+*/
+.slidebox .options {
+    position: fixed;
+    width: 100%;
+    /*height: 100%;*/
+    /*right: 80px;*/
+    /*z-index: 9995;*/
+}
+.slidebox .close-container{
+    z-index: 9992;
+}
+.slidebox .details-container {
+    z-index: 9996;
+}
+.slidebox .options * {
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+}
+
+.slidebox .options .close {
+    position: fixed;
+    top: 80px;
+    right: 80px;
+    display: inline-block;
+    line-height: 0;
+    }
+@media only screen and (max-width: 768px) {
+    .slidebox .options .close {
+        top: 0px;
+        right: 0px;
+    }
+}
+.slidebox .options .close .sprite {
+    background-position: 0 -112px;
+}
+
+.slidebox .options .close:hover .sprite {
+    background-color: #fff;
+    background-position: -56px -112px;
+}
+
+.slidebox .options .details {
+    position: fixed;
+    top: 80px;
+    right: 140px;
+    display: inline-block;
+    line-height: 0;
+}
+@media only screen and (max-width: 768px) {
+    .slidebox .options .details {
+        top: 0px;
+        /*right: 0px;*/
+        left: 0px;
+    }
+}
+
+.slidebox .options .details .sprite {
+    background-position: 0 -168px;
+}
+
+.slidebox .options .details:hover .sprite {
+    background-color: #fff;
+    background-position: -56px -168px;
+}
+
+/*
+
+Content navigation
+----------------------------------------------------
+*/
+
+.slidebox .content .navigation {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 9991;
+}
+@media only screen and (max-width: 768px) {
+    .slidebox .content .navigation {
+        display: none;
+    }
+}
+.slidebox .content .navigation * {
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+}
+
+.slidebox .content .navigation a {
+    display: inline-block;
+    line-height: 0;
+}
+
+.slidebox .content .navigation .next {
+    position: absolute;
+    right: 80px;
+}
+
+.slidebox .content .navigation .previous {
+    position: absolute;
+    left: 80px;
+}
+
+.slidebox .content .navigation .next .sprite {
+    background-position: 0 0px;
+}
+
+.slidebox .content .navigation .previous .sprite {
+    background-position: 0 -56px;
+}
+
+.slidebox .content .navigation .next:hover .sprite {
+    background-color: #fff;
+    background-position: -56px 0px;
+}
+
+.slidebox .content .navigation .previous:hover .sprite {
+    background-color: #fff;
+    background-position: -56px -56px;
+}
+

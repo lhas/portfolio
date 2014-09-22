@@ -1,0 +1,1641 @@
+/*-----------------------------------------------------------------------------------*/
+/*	TEXT TYPES
+/*-----------------------------------------------------------------------------------*/
+.text.type.one {
+    font-family: 'NovecentowideLightRegular', arial, helvetica;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.text.type.two {
+    font-family: 'LeagueGothicRegular', arial, helvetica;
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.8em;
+}
+
+.text.type.three {
+    position: relative;
+    font-family: 'Lobster13Regular', arial, helvetica;
+    font-size: 40px;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.text.type.three .left {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 40%;
+    border-bottom: 3px solid #fff;
+}
+
+.text.type.three .right {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 40%;
+    border-bottom: 3px solid #fff;
+
+}
+
+.text.type.four {
+    position: relative;
+    font-family: 'LeagueGothicRegular', arial, helvetica;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.text.type.four .left {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 45%;
+
+    border-bottom: 3px solid #000;
+}
+
+.text.type.four .right {
+    position: absolute;
+    top: 22px;
+    right: 0;
+    width: 45%;
+
+    border-bottom: 3px solid #000;
+}
+
+.text.type.five {
+    font-family: 'LeagueGothicRegular', arial, helvetica;
+    font-size: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.83em;
+    letter-spacing: -0.03em;
+
+}
+
+.text.type.five .bg {
+    background: url('../images/text-type-five-bg.png') repeat;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    z-index: -1;
+
+}
+
+.text.type.six {
+    font-family: 'novecentowidebold', arial, helvetica;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.83em;
+    letter-spacing: -0.03em;
+
+}
+.text.type.seven {
+
+}
+.text.type.eight {
+
+}
+.text.type.nine {
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SPACIAL COLUMNS
+/*-----------------------------------------------------------------------------------*/
+.coll-2 {
+    width: 49.9%;
+}
+
+.coll-3 {
+    width: 33.3%;
+}
+
+.coll-4 {
+    width: 24.9%;
+}
+
+.coll-5 {
+    width: 19.9%;
+}
+
+.coll-6 {
+    width: 16.6%;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 959px) {
+    .coll-2 {
+        width: 49.9%;
+    }
+
+    .coll-3 {
+        width: 49.9%;
+    }
+
+    .coll-4 {
+        width: 49.9%;
+    }
+
+    .coll-5 {
+        width: 19.9%;
+    }
+
+    .coll-6 {
+        width: 33.3%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .coll-2,
+    .coll-3,
+    .coll-4,
+    .coll-5,
+    .coll-6 {
+        width: 100%;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	PORTFOLIO
+/*-----------------------------------------------------------------------------------*/
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: top, left, opacity;
+    transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.portfolio .filter {
+    text-align: center;
+}
+
+.portfolio .filter li {
+    display: inline-block;
+}
+
+.portfolio .filter .current.link {
+    background: #e1dbd3;
+    border-color: #e1dbd3;
+    color: #000;
+}
+.portfolio .filter .link {
+    display: inline-block;
+    text-decoration: none;
+    font: 28px 'leaguegothicregular', Helvetica, Arial;
+    text-transform: uppercase;
+    padding: 2px 5px 0px 5px !important;
+    margin: 0 5px 5px 0 !important;
+    text-align: center;
+
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+
+    border: 1px solid #000;
+
+    background: none;
+    border-color: #e1dbd3;
+    color: #e1dbd3;
+}
+
+.portfolio .filter .link:hover {
+    background: #e1dbd3;
+    border-color: #e1dbd3;
+    color: #000;
+}
+
+/* items */
+.portfolio .items .hentry {
+    float: left;
+    position: relative;
+
+}
+
+.portfolio .items .hentry .wrapper {
+    padding: 1px;
+}
+
+.portfolio .items .hentry .thumb {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.portfolio .items .hentry  * {
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.portfolio .items .hentry .thumb img {
+    /*max-width: none;*/
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.portfolio .items .hentry:hover .thumb img {
+    opacity: 0.1;
+}
+
+.x-preloader {
+    background-position: 50% 50%;
+    position: absolute;
+    /*opacity: 0;*/
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 2;
+}
+
+.portfolio .items .hentry .info {
+    position: absolute;
+    top: 0;
+    padding: 5%;
+    opacity: 0;
+
+}
+
+.portfolio .items .hentry:hover .info {
+    opacity: 1;
+
+}
+
+.portfolio .items .hentry .info .title {
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: -0.05em;
+    color: #FFF;
+
+}
+
+.portfolio .items .hentry .info .text {
+    /*font-family: novecentowidelightregular, helvetica, arial;*/
+    color: #655d63;
+
+}
+.portfolio .items .hentry.coll-6 .info {
+   line-height: 1em;
+}
+.portfolio .items .hentry.coll-6 .info .title {
+    font-size: 18px;
+}
+
+.portfolio .items .hentry.coll-6 .info .text {
+   font-size: 12px;
+}
+.portfolio .items .hentry.coll-5 .info {
+    line-height: 1em;
+}
+.portfolio .items .hentry.coll-5 .info .title {
+    font-size: 24px;
+}
+
+.portfolio .items .hentry.coll-5 .info .text {
+    font-size: 13px;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	INFO COLUMNS
+/*-----------------------------------------------------------------------------------*/
+/* items */
+.info-columns .items .hentry {
+    float: left;
+
+}
+
+.info-columns .items .hentry .wrapper {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-columns .items .hentry .thumb {
+    max-width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.info-columns .items .hentry .title .text {
+    font-family: 'novecentowidebold', helvetica, arial;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.9em;
+    letter-spacing: -0.07em;
+    margin-bottom: 30px;
+    padding: 0;
+
+}
+
+.info-columns .items .hentry .description {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.info-columns .items .hentry .link {
+
+}
+
+.info-columns .items .hentry .link {
+    display: inline-block;
+    text-decoration: none;
+    font: 28px 'leaguegothicregular', Helvetica, Arial;
+    text-transform: uppercase;
+    padding: 2px 5px 0px 5px !important;
+    margin: 0 5px 5px 0 !important;
+    text-align: center;
+
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+
+    border: 1px solid #000;
+
+    background: none;
+    border-color: #000;
+    color: #000;
+}
+
+.info-columns .items .hentry .link:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	TEAM
+/*-----------------------------------------------------------------------------------*/
+/* items */
+.team .items .hentry {
+    float: left;
+
+}
+
+.team .items .hentry .wrapper {
+    padding: 20px;
+    text-align: center;
+}
+
+.team .items .hentry .thumb {
+    max-width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.team .items .hentry .title .text {
+    font-family: 'novecentowidebold', helvetica, arial;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.9em;
+    letter-spacing: -0.07em;
+    margin-bottom: 5px;
+    padding: 0;
+
+}
+
+.team .items .hentry .position {
+    font-family: 'novecentowidelightregular', helvetica, arial;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team .items .hentry .description {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.team .items .hentry .link {
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	PRICE TABLE
+/*-----------------------------------------------------------------------------------*/
+.price-table {
+
+}
+
+.price-table  .items .hentry {
+    float: left;
+
+}
+
+.price-table .items .hentry .wrapper {
+    margin: 20px 1px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.price-table .items .hentry .wrapper.on {
+    margin: 0px 1px;
+    padding-bottom: 40px;
+}
+
+.price-table .items .hentry .title {
+
+}
+
+.price-table .items .hentry .title .text {
+    font-family: 'novecentowidebold', helvetica, arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+    letter-spacing: -0.07em;
+    padding: 20px 0;
+
+}
+
+.price-table .items .hentry .price {
+    font-family: 'lobster13regular', helvetica, arial;
+    font-size: 16px;
+
+    padding: 10px 0;
+
+    border-top: 1px solid #f0efed;
+    background-color: #fbfaf8;
+    color: #707070;
+
+}
+
+.price-table .items .hentry .description {
+    font-size: 12px;
+    line-height: 1.5em;
+    border-top: 1px solid #f0efed;
+    padding: 20px 20px 0 20px;
+
+}
+
+.price-table .items .hentry .description ul > li {
+    border-top: 1px solid #f0efed;
+    padding: 10px 0px;
+}
+
+.price-table .link {
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+
+    display: inline-block;
+
+    font-family: 'lobster13regular', helvetica, arial;
+    font-size: 16px;
+
+    padding: 5px 15px;
+    margin-bottom: 30px;
+
+    color: #000;
+    background-color: #cac093;
+    border: 1px solid #ad9f82;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+    text-decoration: none;
+
+}
+
+.price-table .link:hover {
+    background-color: #fff;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	CLIENTS
+/*-----------------------------------------------------------------------------------*/
+/* items */
+.clients .items .hentry {
+    float: left;
+
+}
+
+.clients .items .hentry .wrapper {
+    padding: 1px;
+    text-align: center;
+}
+
+.clients .items .hentry .thumb {
+    max-width: 100%;
+
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.clients .items .hentry .thumb:hover {
+    opacity: 0.5;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	FLEX SLIDER
+/*-----------------------------------------------------------------------------------*/
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+    outline: none;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {
+    margin: 0;
+    padding: 0;
+}
+
+.flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+/* Clearfix for the .slides element */
+.slides:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html[xmlns] .slides {
+    display: block;
+}
+
+* html .slides {
+    height: 1%;
+}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+    display: block;
+}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {
+    /*margin: 0 0 60px;*/
+    background: #000;
+    /*border: 4px solid #fff;*/
+    position: relative;
+    /*-webkit-border-radius: 4px;*/
+    /*-moz-border-radius: 4px;*/
+    /*-o-border-radius: 4px;*/
+    /*border-radius: 4px;*/
+    /*box-shadow: 0 1px 4px rgba(0, 0, 0, .2);*/
+    /*-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);*/
+    /*-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);*/
+    /*-o-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);*/
+    /*zoom: 1;*/
+}
+
+.flexslider.no-bg {
+    background: none;
+}
+
+.flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.loading .flex-viewport {
+    max-height: 300px;
+}
+
+.flexslider .slides {
+    zoom: 1;
+}
+
+.carousel li {
+    margin-right: 5px
+}
+
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {
+
+    zoom: 1;
+}
+
+.flexslider.no-captions .flex-caption {
+    display: none;
+}
+
+.flex-caption {
+    padding: 0 1%;
+    margin: 0;
+    position: absolute;
+    max-width: 70%;
+    left: 39px;
+    bottom: 45px;
+    background-color: #fff;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-caption {
+        display: none;
+    }
+}
+
+.flex-caption .title {
+    vertical-align: top;
+    /*display: inline-block;*/
+    font-size: 20px;
+    padding: 5px 0;
+    line-height: 1em;
+
+
+}
+.flex-caption .title .text{
+    font-size: 20px;
+    padding: 0;
+}
+.flex-caption .description {
+    /*display: inline-block;*/
+    font-family: 'novecentowidelightregular', helvetica, arial;
+    font-size: 16px;
+    margin-bottom: 0;
+    /*padding: 5px 0px;*/
+    line-height: 1em;
+
+}
+.flex-caption .description p{
+    margin-bottom: 5px;
+}
+
+.flex-active-slide .flex-caption .title {
+    opacity: 1;
+    animation: myfirst 1s;
+    -moz-animation: myfirst 1s; /* Firefox */
+    -webkit-animation: myfirst 1s; /* Safari and Chrome */
+    -o-animation: myfirst 1s; /* Opera */
+}
+
+.flex-active-slide .flex-caption .description {
+    opacity: 1;
+
+    animation: myfirst 2s;
+    -moz-animation: myfirst 2s; /* Firefox */
+    -webkit-animation: myfirst 2s; /* Safari and Chrome */
+    -o-animation: myfirst 2s; /* Opera */
+}
+
+@keyframes myfirst
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+/* Direction Nav */
+.flexslider.no-arrows .flex-direction-nav {
+    display: none;
+}
+
+.flex-direction-nav {
+    *height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-direction-nav {
+        display: none;
+    }
+}
+
+.flex-direction-nav a {
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+
+    width: 56px;
+    height: 56px;
+
+    background-image: url('../images/sprite.png');
+    background-color: #000;
+
+    opacity: 0;
+
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-transition: all .3s ease;
+
+}
+
+.flex-next {
+    right: 10px;
+}
+
+.flex-prev {
+    left: 10px;
+    background-position: 0 -56px;
+}
+
+.flexslider:hover .flex-prev,
+.flexslider:hover .flex-next {
+    opacity: 0.5
+}
+
+.flex-direction-nav .flex-disabled {
+    opacity: .3 !important;
+    filter: alpha(opacity = 30);
+    cursor: default;
+}
+
+/* Control Nav */
+.flexslider.no-bullets .flex-control-nav {
+    display: none;
+}
+
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    opacity: 0;
+
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.flexslider:hover .flex-control-nav {
+    opacity: 1;
+
+}
+
+.flex-control-nav li {
+    margin: 0 0 0 5px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.flex-control-nav li:first-child {
+    margin: 0;
+}
+
+.flex-control-nav li a {
+    width: 6px;
+    height: 6px;
+    display: block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-indent: -999em;
+}
+
+.flex-control-nav li a.active {
+    cursor: default;
+}
+
+.flex-control-paging li a {
+    width: 6px;
+    height: 6px;
+    display: block;
+    /*background: #666;*/
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    /*box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);*/
+}
+
+.flex-control-paging li a:hover {
+    /*background: #333;*/
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.flex-control-paging li a.flex-active {
+    /*background: #000;*/
+    background: rgba(0, 0, 0, 0.9);
+    cursor: default;
+}
+
+.flex-control-thumbs {
+    margin: 5px 0 0;
+    position: static;
+    overflow: hidden;
+}
+
+.flex-control-thumbs li {
+    width: 25%;
+    float: left;
+    margin: 0;
+}
+
+.flex-control-thumbs img {
+    width: 100%;
+    display: block;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.flex-control-thumbs img:hover {
+    opacity: 1;
+}
+
+.flex-control-thumbs .flex-active {
+    opacity: 1;
+    cursor: default;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SKILL
+/*-----------------------------------------------------------------------------------*/
+.skill {
+    font-family: 'novecentowidebold', helvetica, arial;
+    font-size: 26px;
+    line-height: 0.9em;
+    letter-spacing: -0.07em;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.skill .title {
+    margin-bottom: 10px;
+}
+
+.skill .title  .text {
+    padding: 0;
+    line-height: inherit;
+    font-size: inherit;
+}
+
+.skill .bar {
+    position: relative;
+    width: 100%;
+    height: 36px;
+    background-color: #b5b5b5;
+}
+
+.skill .percent {
+    position: absolute;
+    height: 100%;
+    text-align: right;
+    color: #fff;
+    background-color: #a953e0;
+}
+
+.skill .percent .number {
+    position: absolute;
+    right: 10px;
+    padding: 7px;
+    line-height: 1em;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	CONTACT
+/*-----------------------------------------------------------------------------------*/
+#contact-form > p {
+    margin-bottom: 1px;
+}
+
+#contact-form > p:nth-child(5) {
+    text-align: center;
+}
+
+#contact-form .field {
+    font-family: arial;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 0;
+    /*text-transform: uppercase;*/
+}
+
+#contact-submit {
+    padding: 2px 30px !important;
+    margin: 20px 0 !important;
+    color: #fff;
+    border-color: #fff;
+
+}
+#contact-submit:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+}
+#note {
+    color: #A9B9EB;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SOCIAL ICONS
+/*-----------------------------------------------------------------------------------*/
+.social.icons {
+    font-size: 0;
+}
+
+.social.icons.small {
+    text-align: center;
+}
+
+.social.icons.large {
+    margin: auto;
+    width: 172px;
+}
+
+.social.icons li {
+    display: inline-block;
+    margin: 1px;
+}
+
+.social.icons a {
+    display: inline-block;
+}
+
+.social-icon {
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+}
+
+.social.icons.small li {
+    margin: 3px;
+}
+
+.social.icons.small .social-icon {
+    background-image: url(../images/social-icons-small.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max-moz-device-pixel-ratio: 2) {
+    .social.icons.small .social-icon {
+        background-image: url(../images/social-icons-small@2x.png);
+        background-size: 32px auto;
+    }
+
+}
+
+.social.icons.small a:hover .social-icon {
+    background-color: #ff6b53;
+}
+
+.behance .social-icon {
+    background-position: 0px 0px;
+}
+
+.soundcloud .social-icon {
+    background-position: 0px -33px;
+}
+
+.skype .social-icon {
+    background-position: 0px -66px;
+}
+
+.instagram .social-icon {
+    background-position: 0px -99px;
+}
+
+.dribbble .social-icon {
+    background-position: 0px -132px;
+}
+
+.linkedin .social-icon {
+    background-position: 0px -165px;
+}
+
+.pinterest .social-icon {
+    background-position: 0px -198px;
+}
+
+.gplus .social-icon {
+    background-position: 0px -231px;
+}
+
+.facebook .social-icon {
+    background-position: 0px -264px;
+}
+
+.twitter .social-icon {
+    background-position: 0px -297px;
+}
+
+.vimeo .social-icon {
+    background-position: 0px -330px;
+}
+
+.flickr .social-icon {
+    background-position: 0px -363px;
+}
+
+.github .social-icon {
+    background-position: 0px -396px;
+}
+
+.youtube .social-icon {
+    background-position: 0px -429px;
+}
+.social.icons.large li {
+    float: left;
+}
+.large .social-icon {
+    background-image: url(../images/social-icons-big.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px;
+    display: inline-block;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max-moz-device-pixel-ratio: 2) {
+    .social.icons.large .social-icon {
+        background-image: url(../images/social-icons-big@2x.png);
+        background-size: 84px auto;
+    }
+
+}
+
+.social.icons.large a:hover .social-icon {
+    background-color: #d8cdff;
+}
+
+.large .facebook .social-icon {
+    background-position: 0px 0px;
+}
+
+.large .twitter .social-icon {
+    background-position: 0px -85px;
+}
+
+.large .linkedin .social-icon {
+    background-position: 0px -170px;
+}
+
+.large .gplus .social-icon {
+    background-position: 0px -255px;
+}
+
+.large .flickr .social-icon {
+    background-position: 0px -340px;
+}
+
+.large .dribbble .social-icon {
+    background-position: 0px -425px;
+}
+
+.large .vimeo .social-icon {
+    background-position: 0px -510px;
+}
+
+.large .youtube .social-icon {
+    background-position: 0px -595px;
+}
+
+.large .pinterest .social-icon {
+    background-position: 0px -680px;
+}
+
+.large .github .social-icon {
+    background-position: 0px -765px;
+}
+
+.large .instagram .social-icon {
+    background-position: 0px -850px;
+}
+
+.large .skype .social-icon {
+    background-position: 0px -935px;
+}
+
+.large .soundcloud .social-icon {
+    background-position: 0px -1020px;
+}
+
+.large .behance .social-icon {
+    background-position: 0px -1105px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	TWITTER
+/*-----------------------------------------------------------------------------------*/
+div.twitter.list .tweet {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+div.twitter.list .time {
+    background: url("../images/social-icons-small.png") no-repeat;
+    background-position: -7px -297px;
+    display: inline-block;
+    padding: 3px 15px 0 30px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+div.twitter.list .tweet-line {
+    display: inline-block;
+    padding-top: 3px;
+    border-top: 1px solid #fff;
+    width: 100px;
+}
+
+div.twitter.list .time a {
+    color: #fff;
+}
+
+div.twitter.list .text {
+    font-family: 'novecentowidebold', helvetica, arial;
+    font-size: 20px;
+    color: #fff;
+
+    display: block;
+}
+
+div.twitter.list .text a {
+    font-family: 'NovecentowideLightRegular', helvetica, arial;
+    color: #fff;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+div.twitter.list .text a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+div.twitter.list a.button.follow {
+    font-family: 'lobster13regular', helvetica, arial;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff6b53;
+    border: none;
+    text-transform: none;
+    padding: 5px 10px 6px 10px !important;
+}
+
+div.twitter.list a.button.follow:hover {
+    background-color: #000;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	BUTTONS
+/*-----------------------------------------------------------------------------------*/
+.button {
+    display: inline-block;
+    text-decoration: none;
+    font: 28px 'leaguegothicregular', Helvetica, Arial;
+    text-transform: uppercase;
+    padding: 2px 5px 0px 5px !important;
+    margin: 0 5px 5px 0 !important;
+    text-align: center;
+
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.button.white {
+    background: none;
+    border-color: #e1dbd3;
+    color: #e1dbd3;
+}
+
+.button.white:hover {
+    background: #e1dbd3;
+    border-color: #e1dbd3;
+    color: #000;
+}
+
+.button.white a {
+    /*color: #fff;*/
+}
+
+.button.gray {
+    background: none;
+    border-color: #555;
+    color: #555;
+}
+
+.button.gray:hover {
+    background: #555;
+    border-color: #555;
+    color: #fff;
+}
+
+.button.gray a {
+    color: #555;
+}
+
+.button.red {
+    background: none;
+    border-color: #ff6867;
+    color: #ff6867;
+}
+
+.button.red:hover {
+    background: #ff6867;
+    border-color: #ff6867;
+    color: #fff;
+}
+
+.button.red a {
+    color: #ff6867;
+}
+
+.button.orange {
+    background: none;
+    border-color: #fffa68;
+    color: #fffa68;
+}
+
+.button.orange:hover {
+    background: #fffa68;
+    border-color: #fffa68;
+    color: #fff;
+}
+
+.button.orange a {
+    color: #fffa68;
+}
+
+.button.green {
+    background: none;
+    border-color: #68ffa8;
+    color: #68ffa8;
+}
+
+.button.green:hover {
+    background: #68ffa8;
+    border-color: #68ffa8;
+    color: #fff;
+}
+
+.button.green a {
+    color: #68ffa8;
+}
+
+.button.blue {
+    background: none;
+    border-color: #68c5ff;
+    color: #68c5ff;
+}
+
+.button.blue:hover {
+    background: #68c5ff;
+    border-color: #68c5ff;
+    color: #fff;
+}
+
+.button.blue a {
+    color: #68c5ff;
+}
+
+.button.purple {
+    background: none;
+    border-color: #af68ff;
+    color: #af68ff;
+}
+
+.button.purple:hover {
+    background: #af68ff;
+    border-color: #af68ff;
+    color: #fff;
+}
+
+.button.purple a {
+    color: #af68ff;
+}
+
+.button.black {
+    background: none;
+    border-color: #000;
+    color: #000;
+}
+
+.button.black:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.button.black a {
+    color: #000;
+}
+
+.cuba {
+    height: 1px;
+    width: 100%;
+    background-color: #cecece;
+    border: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	TABS
+/*-----------------------------------------------------------------------------------*/
+
+.ui-tabs .ui-tabs-hide {
+    position: absolute;
+    left: -10000px;
+}
+
+.tabs {
+    margin: 0 0 20px 0;
+}
+
+.tabs ul.nav {
+    list-style: none;
+    margin: 0 0 0 1px;
+    padding: 0;
+}
+
+.tabs ul.nav li {
+    float: left;
+    position: relative;
+    margin: 0 3px -1px -1px;
+    z-index: 10;
+}
+
+.tabs ul.nav li a {
+    display: block;
+    overflow: hidden;
+    padding: 5px 10px 10px 10px;
+    height: 24px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.tabs ul.nav li a:hover {
+  }
+
+.tabs ul.nav li.ui-tabs-selected a {
+    height: 25px;
+    border-bottom: none;
+}
+
+.tabs .tab {
+    padding: 10px;
+    font-size: 12px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	TOGGLES
+/*-----------------------------------------------------------------------------------*/
+
+.toggle {
+    margin: 0 0 20px 0;
+}
+
+.toggle h4 {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.toggle h4:hover {
+    /*font-size: 12px;*/
+    /*font-weight: normal;*/
+    padding: 10px;
+    cursor: pointer;
+}
+
+.toggle-inner {
+    padding: 10px;
+    border-top: none;
+    font-size: 12px;
+}
+
+.toggle .ui-icon {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 5px 10px 0 0;
+}
+
+.toggle .ui-icon {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin: 6px 10px 0 0;
+}
+
+.toggle .ui-state-active .ui-icon {
+}
+
+.ui-tabs .ui-tabs-hide {
+}
+
+.tabs ul.nav li a {
+    border: 1px solid #cfcfcf;
+    background: #dfdfdf;
+    color: #2e2e2e;
+    border-bottom: none;
+}
+
+.tabs ul.nav li a:hover {
+    border: 1px solid #cfcfcf;
+    background: #fff;
+    /*border-bottom: none;*/
+}
+
+.tabs ul.nav li.ui-tabs-selected a {
+    background: #fff;
+    border-bottom: none;
+}
+
+.tabs .tab {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+
+.toggle h4 {
+    background: #dfdfdf;
+    border: 1px solid #cfcfcf;
+}
+
+.toggle h4:hover {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+
+.toggle-inner {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    border-top: none;
+}
+
+.toggle .ui-icon {
+    background: #E7EBCD;
+}
+
+.toggle .ui-icon {
+    background: url(../images/toggle-closed.png) no-repeat;
+}
+
+.toggle .ui-state-active .ui-icon {
+    background: url(../images/toggle-open.png) no-repeat;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	Alerts
+/*-----------------------------------------------------------------------------------*/
+.alert {
+    padding: 12px 5% 12px 5%;
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 0.95em;
+}
+.alert.blue {
+    background: #E7F6FF;
+    color: #38393e;
+}
+
+.alert.red {
+    background: #FFDADA;
+    color: #38393e;
+}
+
+.alert.yellow {
+    background: #FFFCAD;
+    color: #38393e;
+}
+
+.alert.green {
+    background: #EEF3B9;
+    color: #38393e;
+}

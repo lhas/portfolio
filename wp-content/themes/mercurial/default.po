@@ -1,0 +1,1418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fifty\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-23 17:54+0200\n"
+"PO-Revision-Date: 2012-11-23 18:08+0200\n"
+"Last-Translator: sd <sdf@azsd.ckom>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:15
+msgid "All posts in "
+msgstr ""
+
+#: archive.php:18
+msgid "All posts tagged "
+msgstr ""
+
+#: archive.php:21
+#: archive.php:24
+#: archive.php:27
+msgid "Archive for "
+msgstr ""
+
+#: archive.php:30
+msgid "All posts by "
+msgstr ""
+
+#: archive.php:33
+msgid "Archives "
+msgstr ""
+
+#: archive.php:65
+#: template-blog.php:46
+msgid "Read More"
+msgstr ""
+
+#: archive.php:85
+#: template-blog.php:66
+msgid "Older Entries"
+msgstr ""
+
+#: archive.php:92
+#: template-blog.php:73
+msgid "Newer Entries"
+msgstr ""
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:24
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:24
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:35
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:47
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:50
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are now closed for this article."
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: single-portfolio.php:73
+msgid "Client: "
+msgstr ""
+
+#: single-portfolio.php:76
+msgid "Date: "
+msgstr ""
+
+#: single-portfolio.php:82
+msgid "Launch Project"
+msgstr ""
+
+#: template-archives.php:29
+msgid "Last 30 Posts"
+msgstr ""
+
+#: template-archives.php:40
+msgid "Archives by Month"
+msgstr ""
+
+#: template-archives.php:48
+msgid "Archives by Category"
+msgstr ""
+
+#: admin/admin-interface.php:112
+#: admin/admin-interface.php:131
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/admin-interface.php:133
+msgid "Options Reset"
+msgstr ""
+
+#: admin/admin-interface.php:625
+msgid "Click OK to backup your current saved options."
+msgstr ""
+
+#: admin/admin-interface.php:672
+msgid "Warning: All of your current options will be replaced with the data from your last backup! Proceed?"
+msgstr ""
+
+#: admin/admin-interface.php:992
+msgid "Click OK to reset. All settings will be lost!"
+msgstr ""
+
+#: admin/admin-interface.php:1649
+msgid "Last Backup : "
+msgstr ""
+
+#: admin/admin-interface.php:1717
+msgid "Upload"
+msgstr ""
+
+#: admin/medialibrary-uploader.php:18
+msgid "Options"
+msgstr ""
+
+#: admin/medialibrary-uploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: admin/medialibrary-uploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: admin/theme-options.php:103
+msgid "General Settings"
+msgstr ""
+
+#: admin/theme-options.php:105
+msgid "Site Logo"
+msgstr ""
+
+#: admin/theme-options.php:106
+msgid "Select the site logo."
+msgstr ""
+
+#: admin/theme-options.php:111
+msgid "Site Favicon"
+msgstr ""
+
+#: admin/theme-options.php:112
+msgid "Select the site favicon"
+msgstr ""
+
+#: admin/theme-options.php:117
+msgid "Footer Text"
+msgstr ""
+
+#: admin/theme-options.php:118
+msgid "Insert the footer text thats on the bottom right of the screen. You can use html tags"
+msgstr ""
+
+#: admin/theme-options.php:122
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/theme-options.php:123
+msgid "Insert your analytics code"
+msgstr ""
+
+#: admin/theme-options.php:133
+msgid "Styling Options"
+msgstr ""
+
+#: admin/theme-options.php:136
+msgid "Skin Stylesheet"
+msgstr ""
+
+#: admin/theme-options.php:137
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: admin/theme-options.php:145
+msgid "The following options allow you to set the colors used by the menu"
+msgstr ""
+
+#: admin/theme-options.php:147
+msgid "Menu Background Color"
+msgstr ""
+
+#: admin/theme-options.php:148
+msgid "Select the default background color for the menu."
+msgstr ""
+
+#: admin/theme-options.php:152
+msgid "Menu Item Color"
+msgstr ""
+
+#: admin/theme-options.php:153
+msgid "Select the default menu item color."
+msgstr ""
+
+#: admin/theme-options.php:157
+msgid "Menu Item Over Color"
+msgstr ""
+
+#: admin/theme-options.php:158
+msgid "Select the over menu item color."
+msgstr ""
+
+#: admin/theme-options.php:167
+msgid "The following options allow you to set the default background behavior for each page. Each of these options can be overridden on the individual post/page/portfolio level. You are in complete control."
+msgstr ""
+
+#: admin/theme-options.php:170
+msgid "Default Background Image"
+msgstr ""
+
+#: admin/theme-options.php:171
+msgid "Set the default background image to be used on all pages."
+msgstr ""
+
+#: admin/theme-options.php:176
+msgid "Default Background Repeat"
+msgstr ""
+
+#: admin/theme-options.php:177
+msgid "Select the default background repeat for the background image"
+msgstr ""
+
+#: admin/theme-options.php:183
+msgid "Default Background Position"
+msgstr ""
+
+#: admin/theme-options.php:184
+msgid "Select the default background position for the background image"
+msgstr ""
+
+#: admin/theme-options.php:189
+msgid "Default Background Color"
+msgstr ""
+
+#: admin/theme-options.php:190
+msgid "Select the default background color for pages."
+msgstr ""
+
+#: admin/theme-options.php:200
+msgid "Front Page Settings"
+msgstr ""
+
+#: admin/theme-options.php:202
+msgid "Menu Position"
+msgstr ""
+
+#: admin/theme-options.php:203
+msgid "Check this if you don't want the menu to be visible on the first section"
+msgstr ""
+
+#: functions/clients.php:10
+msgid "Clients"
+msgstr ""
+
+#: functions/clients.php:11
+msgid "Client"
+msgstr ""
+
+#: functions/clientsmeta.php:10
+#: functions/infocolumnsmeta.php:24
+#: functions/portfoliometa.php:111
+#: functions/portfoliometa.php:194
+msgid "Image"
+msgstr ""
+
+#: functions/clientsmeta.php:11
+msgid "Upload the client logo. Once uploaded, click \"Insert to Post\"."
+msgstr ""
+
+#: functions/clientsmeta.php:24
+msgid "Url"
+msgstr ""
+
+#: functions/clientsmeta.php:25
+msgid "Enter the client's website url"
+msgstr ""
+
+#: functions/frontpagesections.php:10
+msgid "Front Page Sections"
+msgstr ""
+
+#: functions/frontpagesections.php:11
+msgid "Section"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:13
+msgid "Section Height"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:14
+msgid "Check this if you want the section to have the height of its content (may be smaller than the browser window height)"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:20
+msgid "Show Section Title"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:21
+msgid "Check this if you want to show the section title. Uncheck if you don't want the section title displayed"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:27
+#: functions/pagemeta.php:14
+msgid "Title Font Size"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:28
+msgid "Insert a custom title font size for this section. Leave <b>blank</b> to use the size set in style.css"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:34
+#: functions/pagemeta.php:21
+msgid "Title Font Color"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:35
+#: functions/pagemeta.php:22
+msgid "Select a color for your title. This will also be the color used by your custom <b>text types</b>"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:52
+#: functions/pagemeta.php:39
+#: functions/postmeta.php:82
+msgid "Custom Background Image"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:53
+msgid "Upload a custom background image for this section. Once uploaded, click \"Insert to Post\"."
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:66
+#: functions/pagemeta.php:53
+#: functions/postmeta.php:96
+msgid "Custom Background Repeat"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:67
+#: functions/pagemeta.php:54
+#: functions/postmeta.php:97
+msgid "Select a custom background repeat for the uploaded image."
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:71
+#: functions/pagemeta.php:58
+#: functions/postmeta.php:101
+msgid "No Repeat"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:71
+#: functions/pagemeta.php:58
+#: functions/postmeta.php:101
+msgid "Repeat"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:71
+#: functions/pagemeta.php:58
+#: functions/postmeta.php:101
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:71
+#: functions/pagemeta.php:58
+#: functions/postmeta.php:101
+msgid "Repeat Vertically"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:74
+#: functions/pagemeta.php:61
+#: functions/postmeta.php:104
+msgid "Custom Background Position"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:75
+#: functions/pagemeta.php:62
+#: functions/postmeta.php:105
+msgid "Select a custom background position for the uploaded image."
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:79
+#: functions/pagemeta.php:66
+#: functions/postmeta.php:109
+msgid "Left"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:79
+#: functions/pagemeta.php:66
+#: functions/postmeta.php:109
+msgid "Right"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:79
+#: functions/pagemeta.php:66
+#: functions/postmeta.php:109
+msgid "Centered"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:79
+#: functions/pagemeta.php:66
+#: functions/postmeta.php:109
+msgid "Full Screen"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:82
+#: functions/pagemeta.php:69
+#: functions/postmeta.php:112
+msgid "Custom Background Color"
+msgstr ""
+
+#: functions/frontpagesectionsmeta.php:83
+#: functions/pagemeta.php:70
+#: functions/postmeta.php:113
+msgid "Select a custom background color for the uploaded image."
+msgstr ""
+
+#: functions/infocolumns.php:10
+msgid "Info Columns"
+msgstr ""
+
+#: functions/infocolumns.php:11
+msgid "InfoColumns"
+msgstr ""
+
+#: functions/infocolumns.php:31
+msgid "Search Info Columns Categories"
+msgstr ""
+
+#: functions/infocolumns.php:32
+msgid "All Categoies"
+msgstr ""
+
+#: functions/infocolumns.php:33
+#: functions/portfolio.php:33
+msgid "Parent Location"
+msgstr ""
+
+#: functions/infocolumns.php:34
+#: functions/portfolio.php:34
+msgid "Parent Location:"
+msgstr ""
+
+#: functions/infocolumns.php:35
+#: functions/portfolio.php:35
+msgid "Edit Category"
+msgstr ""
+
+#: functions/infocolumns.php:36
+#: functions/portfolio.php:36
+msgid "Update Category"
+msgstr ""
+
+#: functions/infocolumns.php:37
+#: functions/portfolio.php:37
+msgid "Add New Category"
+msgstr ""
+
+#: functions/infocolumns.php:38
+#: functions/portfolio.php:38
+msgid "New Category Name"
+msgstr ""
+
+#: functions/infocolumns.php:98
+#: functions/portfolio.php:98
+#: functions/pricetables.php:98
+msgid "No Genres"
+msgstr ""
+
+#: functions/infocolumnsmeta.php:10
+msgid "Title"
+msgstr ""
+
+#: functions/infocolumnsmeta.php:11
+msgid "Check this if you want to display the title"
+msgstr ""
+
+#: functions/infocolumnsmeta.php:17
+msgid "Text"
+msgstr ""
+
+#: functions/infocolumnsmeta.php:18
+msgid "Check this if you want to display the text"
+msgstr ""
+
+#: functions/infocolumnsmeta.php:25
+msgid "Upload an image that will appear above the title. Once uploaded, click \"Insert to Post\"."
+msgstr ""
+
+#: functions/infocolumnsmeta.php:38
+msgid "Link URL"
+msgstr ""
+
+#: functions/infocolumnsmeta.php:39
+msgid "Insert link url"
+msgstr ""
+
+#: functions/infocolumnsmeta.php:45
+#: functions/pricetablesmeta.php:31
+msgid "Link Text"
+msgstr ""
+
+#: functions/infocolumnsmeta.php:46
+msgid "Insert link text"
+msgstr ""
+
+#: functions/pagemeta.php:15
+msgid "Insert a custom title font size for this page. Leave <b>blank</b> to use the size set in style.css"
+msgstr ""
+
+#: functions/pagemeta.php:40
+#: functions/postmeta.php:83
+msgid "Upload a custom background image for this page. Once uploaded, click \"Insert to Post\"."
+msgstr ""
+
+#: functions/portfolio.php:10
+#: functions/portfolio.php:11
+msgid "Portfolio"
+msgstr ""
+
+#: functions/portfolio.php:31
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: functions/portfolio.php:32
+msgid "All Locations"
+msgstr ""
+
+#: functions/portfoliometa.php:9
+#: functions/portfoliometa.php:90
+msgid "Project Thumbnail"
+msgstr ""
+
+#: functions/portfoliometa.php:16
+msgid "Project Content"
+msgstr ""
+
+#: functions/portfoliometa.php:23
+msgid "Project Url"
+msgstr ""
+
+#: functions/portfoliometa.php:30
+msgid "Project Client"
+msgstr ""
+
+#: functions/portfoliometa.php:37
+msgid "Project Date"
+msgstr ""
+
+#: functions/portfoliometa.php:51
+msgid "Background Color"
+msgstr ""
+
+#: functions/portfoliometa.php:52
+msgid "Select a custom background color for the project lightbox."
+msgstr ""
+
+#: functions/portfoliometa.php:58
+msgid "Info Background Color"
+msgstr ""
+
+#: functions/portfoliometa.php:59
+msgid "Select a custom background color for the project details."
+msgstr ""
+
+#: functions/portfoliometa.php:91
+msgid "Insert thumbnail url"
+msgstr ""
+
+#: functions/portfoliometa.php:109
+msgid "Content Type:"
+msgstr ""
+
+#: functions/portfoliometa.php:112
+msgid "YouTube"
+msgstr ""
+
+#: functions/portfoliometa.php:113
+#: functions/portfoliometa.php:134
+#: functions/portfoliometa.php:233
+msgid "Vimeo"
+msgstr ""
+
+#: functions/portfoliometa.php:121
+msgid "Image Url"
+msgstr ""
+
+#: functions/portfoliometa.php:122
+msgid "insert image url"
+msgstr ""
+
+#: functions/portfoliometa.php:128
+#: functions/portfoliometa.php:213
+msgid "Youtube"
+msgstr ""
+
+#: functions/portfoliometa.php:129
+#: functions/portfoliometa.php:135
+msgid "insert embed code"
+msgstr ""
+
+#: functions/portfoliometa.php:141
+msgid "Poster"
+msgstr ""
+
+#: functions/portfoliometa.php:142
+msgid "insert poster url"
+msgstr ""
+
+#: functions/portfoliometa.php:147
+msgid "Width"
+msgstr ""
+
+#: functions/portfoliometa.php:148
+msgid "insert the video width"
+msgstr ""
+
+#: functions/portfoliometa.php:153
+msgid "Height"
+msgstr ""
+
+#: functions/portfoliometa.php:154
+msgid "insert the video height"
+msgstr ""
+
+#: functions/portfoliometa.php:159
+msgid "M4V"
+msgstr ""
+
+#: functions/portfoliometa.php:160
+msgid "insert video source (m4v)"
+msgstr ""
+
+#: functions/portfoliometa.php:165
+msgid "OGV"
+msgstr ""
+
+#: functions/portfoliometa.php:166
+msgid "insert video source (ogv)"
+msgstr ""
+
+#: functions/portfoliometa.php:195
+msgid "edit image url"
+msgstr ""
+
+#: functions/portfoliometa.php:214
+#: functions/portfoliometa.php:234
+msgid "edit embed code"
+msgstr ""
+
+#: functions/portfoliometa.php:257
+#: functions/postmeta.php:59
+msgid "Video"
+msgstr ""
+
+#: functions/portfoliometa.php:259
+msgid "edit poster url"
+msgstr ""
+
+#: functions/portfoliometa.php:261
+msgid "edit video width"
+msgstr ""
+
+#: functions/portfoliometa.php:263
+msgid "edit video height"
+msgstr ""
+
+#: functions/portfoliometa.php:265
+msgid "edit video m4v src"
+msgstr ""
+
+#: functions/portfoliometa.php:267
+msgid "edit video ogv src"
+msgstr ""
+
+#: functions/portfoliometa.php:308
+msgid "Insert project url"
+msgstr ""
+
+#: functions/portfoliometa.php:328
+msgid "Insert client name"
+msgstr ""
+
+#: functions/portfoliometa.php:347
+msgid "Insert completion date"
+msgstr ""
+
+#: functions/postmeta.php:7
+msgid "Quote"
+msgstr ""
+
+#: functions/postmeta.php:12
+msgid "Insert Text"
+msgstr ""
+
+#: functions/postmeta.php:23
+msgid "Link"
+msgstr ""
+
+#: functions/postmeta.php:28
+msgid "Insert URL"
+msgstr ""
+
+#: functions/postmeta.php:39
+msgid "Audio"
+msgstr ""
+
+#: functions/postmeta.php:44
+msgid "MP3 File URL"
+msgstr ""
+
+#: functions/postmeta.php:48
+msgid "OGA/OGG File URL"
+msgstr ""
+
+#: functions/postmeta.php:64
+msgid "Embedded Code"
+msgstr ""
+
+#: functions/pricetables.php:10
+msgid "Prices"
+msgstr ""
+
+#: functions/pricetables.php:11
+msgid "Price Column"
+msgstr ""
+
+#: functions/pricetables.php:31
+msgid "Search Price Tables"
+msgstr ""
+
+#: functions/pricetables.php:32
+msgid "All Price Tables"
+msgstr ""
+
+#: functions/pricetables.php:33
+msgid "Parent Table"
+msgstr ""
+
+#: functions/pricetables.php:34
+msgid "Parent Table:"
+msgstr ""
+
+#: functions/pricetables.php:35
+msgid "Edit Table"
+msgstr ""
+
+#: functions/pricetables.php:36
+msgid "Update Table"
+msgstr ""
+
+#: functions/pricetables.php:37
+msgid "Add New Table"
+msgstr ""
+
+#: functions/pricetables.php:38
+msgid "New Table Name"
+msgstr ""
+
+#: functions/pricetablesmeta.php:10
+msgid "Plan background color"
+msgstr ""
+
+#: functions/pricetablesmeta.php:11
+msgid "Select a custom background color for the price plan column."
+msgstr ""
+
+#: functions/pricetablesmeta.php:17
+msgid "Price"
+msgstr ""
+
+#: functions/pricetablesmeta.php:18
+msgid "Enter the price for this plan"
+msgstr ""
+
+#: functions/pricetablesmeta.php:24
+msgid "Link Url"
+msgstr ""
+
+#: functions/pricetablesmeta.php:25
+msgid "Enter the url for this plan"
+msgstr ""
+
+#: functions/pricetablesmeta.php:32
+msgid "Enter the link text"
+msgstr ""
+
+#: functions/pricetablesmeta.php:38
+msgid "Stand Out"
+msgstr ""
+
+#: functions/pricetablesmeta.php:39
+msgid "Check this if u want the price plan to stand out"
+msgstr ""
+
+#: functions/settings.php:15
+msgid "Main Menu"
+msgstr ""
+
+#: functions/shortcodes.php:64
+msgid "All"
+msgstr ""
+
+#: functions/shortcodes.php:504
+msgid "NAME"
+msgstr ""
+
+#: functions/shortcodes.php:508
+msgid "EMAIL"
+msgstr ""
+
+#: functions/sliders.php:10
+msgid "Slides"
+msgstr ""
+
+#: functions/sliders.php:11
+msgid "Slide"
+msgstr ""
+
+#: functions/sliders.php:31
+msgid "Search Sliders"
+msgstr ""
+
+#: functions/sliders.php:32
+msgid "All Sliders"
+msgstr ""
+
+#: functions/sliders.php:33
+msgid "Parent Slider"
+msgstr ""
+
+#: functions/sliders.php:34
+msgid "Parent Slider:"
+msgstr ""
+
+#: functions/sliders.php:35
+msgid "Edit Slider"
+msgstr ""
+
+#: functions/sliders.php:36
+msgid "Update Slider"
+msgstr ""
+
+#: functions/sliders.php:37
+msgid "Add New Slider"
+msgstr ""
+
+#: functions/sliders.php:38
+msgid "New Slider Name"
+msgstr ""
+
+#: functions/slidersmeta.php:10
+msgid "Slide Image"
+msgstr ""
+
+#: functions/slidersmeta.php:11
+msgid "Upload an image for this slide. Once uploaded, click \"Insert to Post\"."
+msgstr ""
+
+#: functions/slidersmeta.php:25
+msgid "Enter an url for this slide (Optional)"
+msgstr ""
+
+#: functions/team.php:10
+#: tinymce/config.php:299
+msgid "Team"
+msgstr ""
+
+#: functions/team.php:11
+msgid "Team Member"
+msgstr ""
+
+#: functions/team.php:31
+msgid "Search Team Blocks"
+msgstr ""
+
+#: functions/team.php:32
+msgid "All Blocks"
+msgstr ""
+
+#: functions/team.php:33
+msgid "Parent Block"
+msgstr ""
+
+#: functions/team.php:34
+msgid "Parent Block:"
+msgstr ""
+
+#: functions/team.php:35
+msgid "Edit Block"
+msgstr ""
+
+#: functions/team.php:36
+msgid "Update Block"
+msgstr ""
+
+#: functions/team.php:37
+msgid "Add New Block"
+msgstr ""
+
+#: functions/team.php:38
+msgid "New Block Name"
+msgstr ""
+
+#: functions/teammeta.php:24
+msgid "Position"
+msgstr ""
+
+#: functions/teammeta.php:25
+msgid "Enter the team member position"
+msgstr ""
+
+#: functions/utils.php:521
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: functions/utils.php:522
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: functions/utils.php:540
+#, php-format
+msgid "Results for %s"
+msgstr ""
+
+#: functions/utils.php:546
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: functions/utils.php:548
+#, php-format
+msgid "Sorry, but there aren't any posts tagged %s yet."
+msgstr ""
+
+#: functions/utils.php:550
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: functions/utils.php:553
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: functions/utils.php:555
+msgid "No posts found."
+msgstr ""
+
+#: functions/utils.php:600
+msgid "(Edit)"
+msgstr ""
+
+#: functions/utils.php:606
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/utils.php:744
+#: tinymce/config.php:323
+msgid "Name"
+msgstr ""
+
+#: functions/utils.php:750
+msgid "Email"
+msgstr ""
+
+#: functions/utils.php:755
+msgid "Website"
+msgstr ""
+
+#: functions/utils.php:773
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions/utils.php:779
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: functions/utils.php:790
+msgid "Add a comment"
+msgstr ""
+
+#: functions/utils.php:791
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions/utils.php:792
+msgid "| Cancel"
+msgstr ""
+
+#: functions/utils.php:793
+msgid "Submit Comment"
+msgstr ""
+
+#: includes/post-meta.php:2
+msgid "By "
+msgstr ""
+
+#: includes/post-meta.php:3
+msgid "On "
+msgstr ""
+
+#: includes/post-meta.php:4
+msgid "With "
+msgstr ""
+
+#: includes/post-meta.php:4
+msgid "1 Comment"
+msgstr ""
+
+#: includes/post-meta.php:5
+msgid "In "
+msgstr ""
+
+#: includes/post-meta.php:6
+msgid "Tagged "
+msgstr ""
+
+#: tinymce/config.php:9
+msgid "Button URL"
+msgstr ""
+
+#: tinymce/config.php:10
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: tinymce/config.php:14
+msgid "Button's Style"
+msgstr ""
+
+#: tinymce/config.php:15
+msgid "Select the button's style, ie the buttons colour"
+msgstr ""
+
+#: tinymce/config.php:30
+msgid "Button's Text"
+msgstr ""
+
+#: tinymce/config.php:31
+msgid "Add the button's text"
+msgstr ""
+
+#: tinymce/config.php:35
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: tinymce/config.php:43
+msgid "Alert's Style"
+msgstr ""
+
+#: tinymce/config.php:44
+msgid "Select the slter's style, ie the alert colour"
+msgstr ""
+
+#: tinymce/config.php:55
+msgid "Alert's Text"
+msgstr ""
+
+#: tinymce/config.php:56
+msgid "Add the alert's text"
+msgstr ""
+
+#: tinymce/config.php:61
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: tinymce/config.php:69
+msgid "Toggle Content Title"
+msgstr ""
+
+#: tinymce/config.php:70
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: tinymce/config.php:76
+msgid "Toggle Content"
+msgstr ""
+
+#: tinymce/config.php:77
+msgid "Add the toggle content."
+msgstr ""
+
+#: tinymce/config.php:82
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: tinymce/config.php:90
+msgid "Insert Tabbed Shortcode"
+msgstr ""
+
+#: tinymce/config.php:97
+msgid "Tab Title"
+msgstr ""
+
+#: tinymce/config.php:98
+msgid "Title of the tab"
+msgstr ""
+
+#: tinymce/config.php:103
+msgid "Tab Content"
+msgstr ""
+
+#: tinymce/config.php:104
+msgid "Add the tabs content"
+msgstr ""
+
+#: tinymce/config.php:108
+msgid "Add Tab"
+msgstr ""
+
+#: tinymce/config.php:117
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: tinymce/config.php:125
+msgid "Column Type"
+msgstr ""
+
+#: tinymce/config.php:126
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: tinymce/config.php:155
+msgid "Column Content"
+msgstr ""
+
+#: tinymce/config.php:156
+msgid "Add the column content."
+msgstr ""
+
+#: tinymce/config.php:160
+msgid "Add Column"
+msgstr ""
+
+#: tinymce/config.php:172
+msgid "Text Type"
+msgstr ""
+
+#: tinymce/config.php:173
+msgid "Select the text type"
+msgstr ""
+
+#: tinymce/config.php:189
+msgid "Maximum Font Size"
+msgstr ""
+
+#: tinymce/config.php:190
+msgid "Insert the maximum font size (large screens). Leave blank for the default value (from css)"
+msgstr ""
+
+#: tinymce/config.php:195
+msgid "Minimum Font Size"
+msgstr ""
+
+#: tinymce/config.php:196
+msgid "Insert the minimum font size (mobile). Leave blank for the default value (from css)"
+msgstr ""
+
+#: tinymce/config.php:202
+msgid "Add the text"
+msgstr ""
+
+#: tinymce/config.php:206
+msgid "Insert Text Type Shortcode"
+msgstr ""
+
+#: tinymce/config.php:220
+msgid "Minimum"
+msgstr ""
+
+#: tinymce/config.php:221
+msgid "Insert the padding for mobile"
+msgstr ""
+
+#: tinymce/config.php:226
+msgid "Maximum"
+msgstr ""
+
+#: tinymce/config.php:227
+msgid "Insert the padding for widescreen"
+msgstr ""
+
+#: tinymce/config.php:231
+msgid "Insert Smart Padding Shortcode"
+msgstr ""
+
+#: tinymce/config.php:244
+#: tinymce/config.php:274
+#: tinymce/config.php:306
+#: tinymce/config.php:385
+#: tinymce/config.php:405
+msgid "Columns"
+msgstr ""
+
+#: tinymce/config.php:245
+#: tinymce/config.php:275
+#: tinymce/config.php:307
+#: tinymce/config.php:386
+#: tinymce/config.php:406
+msgid "Select the number of columns"
+msgstr ""
+
+#: tinymce/config.php:250
+msgid "Portfolio Shortcode"
+msgstr ""
+
+#: tinymce/config.php:268
+msgid "Select info columns block"
+msgstr ""
+
+#: tinymce/config.php:280
+msgid "Select Info Columns"
+msgstr ""
+
+#: tinymce/config.php:300
+msgid "Select a team"
+msgstr ""
+
+#: tinymce/config.php:312
+msgid "Select Team"
+msgstr ""
+
+#: tinymce/config.php:324
+msgid "Your skill name"
+msgstr ""
+
+#: tinymce/config.php:330
+msgid "Percentage"
+msgstr ""
+
+#: tinymce/config.php:331
+msgid "The percentage of awesomeness"
+msgstr ""
+
+#: tinymce/config.php:336
+msgid "Name Color"
+msgstr ""
+
+#: tinymce/config.php:337
+msgid "Insert a the color code for the text. Leave black to use the default color"
+msgstr ""
+
+#: tinymce/config.php:342
+msgid "Percentage Number Color"
+msgstr ""
+
+#: tinymce/config.php:343
+msgid "Insert a the color code for the percentage text. Leave black to use the default color"
+msgstr ""
+
+#: tinymce/config.php:348
+msgid "Percentage Bar Color"
+msgstr ""
+
+#: tinymce/config.php:349
+msgid "Insert a the color code for the percentage bar. Leave black to use the default color"
+msgstr ""
+
+#: tinymce/config.php:354
+msgid "Background Bar Color"
+msgstr ""
+
+#: tinymce/config.php:355
+msgid "Insert a the color code for the background bar. Leave black to use the default color"
+msgstr ""
+
+#: tinymce/config.php:360
+msgid "Insert Skill"
+msgstr ""
+
+#: tinymce/config.php:378
+msgid "Price Table"
+msgstr ""
+
+#: tinymce/config.php:379
+msgid "Select a price table"
+msgstr ""
+
+#: tinymce/config.php:391
+msgid "Select Price Table"
+msgstr ""
+
+#: tinymce/config.php:411
+msgid "Clients Shortcode"
+msgstr ""
+
+#: tinymce/config.php:433
+msgid "Slider"
+msgstr ""
+
+#: tinymce/config.php:434
+msgid "Select a Slider"
+msgstr ""
+
+#: tinymce/config.php:440
+msgid "Background"
+msgstr ""
+
+#: tinymce/config.php:441
+msgid "Select \"on\" if you want the slider to have a background"
+msgstr ""
+
+#: tinymce/config.php:447
+msgid "Captions"
+msgstr ""
+
+#: tinymce/config.php:448
+msgid "Select \"on\" if you want the slider display the title and description of the slide"
+msgstr ""
+
+#: tinymce/config.php:454
+msgid "Arrows"
+msgstr ""
+
+#: tinymce/config.php:455
+msgid "Select \"on\" if you want the slider to display the navigation arrows"
+msgstr ""
+
+#: tinymce/config.php:461
+msgid "Bullets"
+msgstr ""
+
+#: tinymce/config.php:462
+msgid "Select \"on\" if you want the slider to display the navigation bullets"
+msgstr ""
+
+#: tinymce/config.php:469
+msgid "Slider Shortcode"
+msgstr ""
+
+#: tinymce/config.php:481
+msgid "Contact Shortcode"
+msgstr ""
+
+#: tinymce/config.php:513
+#: tinymce/config.php:527
+msgid "Type"
+msgstr ""
+
+#: tinymce/config.php:514
+msgid "Select the size of the social icons"
+msgstr ""
+
+#: tinymce/config.php:521
+msgid "Insert Social Icons Shortcode"
+msgstr ""
+
+#: tinymce/config.php:528
+msgid "Select the social service"
+msgstr ""
+
+#: tinymce/config.php:536
+msgid "Insert the social URL"
+msgstr ""
+
+#: tinymce/config.php:540
+msgid "Add Icon"
+msgstr ""
+
+#: tinymce/config.php:558
+msgid "Username"
+msgstr ""
+
+#: tinymce/config.php:559
+msgid "Insert your twitter username"
+msgstr ""
+
+#: tinymce/config.php:564
+msgid "Number of Tweets"
+msgstr ""
+
+#: tinymce/config.php:565
+msgid "Insert the number of tweets (only for list)"
+msgstr ""
+
+#: tinymce/config.php:570
+msgid "Follow Link Text"
+msgstr ""
+
+#: tinymce/config.php:571
+msgid "Insert the text for the follow link. Leave blank to remove the link"
+msgstr ""
+
+#: tinymce/config.php:576
+msgid "Twitter Shortcode"
+msgstr ""
+
+#~ msgid "If at first you don't succeed, failure may be your style."
+#~ msgstr "muie cu cacat"

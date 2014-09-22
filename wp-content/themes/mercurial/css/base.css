@@ -1,0 +1,324 @@
+/*-----------------------------------------------------------------------------------*/
+/*	CONTENT STYLES
+/*-----------------------------------------------------------------------------------*/
+
+address {
+
+}
+
+abbr[title],
+acronym[title],
+dfn[title] {
+    cursor: help;
+    border-bottom: 1px dotted #666;
+    font-weight: bold;
+}
+
+blockquote p {
+    font-family: Georgia, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2em;
+    display: block;
+    padding: 1.4em;
+    clear: both;
+    text-decoration: none;
+    word-spacing: normal;
+    letter-spacing: 0;
+
+    text-align: center;
+    border-top: 1px dashed #888888;
+    border-bottom: 1px dashed #888888;
+}
+
+q {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em,
+dfn {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+cite {
+    padding: 10px;
+}
+
+dfn {
+    font-weight: bold;
+}
+
+sup {
+    font-size: 11px;
+    vertical-align: top;
+}
+
+sub {
+    font-size: 11px;
+    vertical-align: bottom;
+}
+
+small {
+    font-size: 0.95em;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+ins {
+    text-decoration: underline;
+}
+
+code,
+pre {
+    line-height: 100%;
+}
+
+var,
+kbd,
+samp,
+code,
+pre {
+    font: 12px/18px Consolas, "Andale Mono", Courier, "Courier New", monospace;
+}
+
+kbd {
+    font-weight: bold;
+}
+
+samp,
+var {
+    font-style: italic;
+}
+
+pre {
+    white-space: pre;
+    overflow: auto;
+    padding: 5px;
+    clear: both;
+    line-height: 19px;
+
+}
+
+code {
+    padding: 3px;
+    line-height: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul,
+ol,
+dl {
+    line-height: 180%;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ol {
+    list-style: inside decimal;
+}
+
+.numbers {
+    list-style: inside decimal;
+}
+
+.circle {
+    list-style: inside disc;
+}
+
+.square {
+    list-style: inside square;
+}
+
+table {
+    line-height: 18px;
+    margin: 0 0 22px 0;
+    text-align: left;
+    padding: 0 5px;
+}
+
+caption {
+    font-size: 11px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+img.alignleft {
+    float: left;
+    margin: 10px 25px 20px 0;
+}
+
+img.alignright {
+    display: block;
+    margin: 10px 0 25px 20px;
+    clear: both;
+}
+
+img.size-large {
+    margin: 10px 0 20px -180px;
+}
+
+img.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+    margin-top: 5px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	WP DEFAULT STYLES
+/*-----------------------------------------------------------------------------------*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.wp-smiley {
+    margin: 0 !important;
+    max-height: 1em;
+}
+
+.bypostauthor {
+}
+
+.gallery dl {
+    margin: 0;
+}
+
+.gallery-caption {
+}
+
+.sticky {
+}
+
+blockquote.left {
+    float: left;
+    margin-left: 0;
+    margin-right: 20px;
+    text-align: right;
+    width: 33%;
+}
+
+blockquote.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+    text-align: left;
+    width: 33%;
+}
+
+/* End Wp Default styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
